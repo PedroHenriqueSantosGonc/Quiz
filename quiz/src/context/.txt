@@ -1,0 +1,48 @@
+Quando não trabalhamos com routes para dividir os componentes da aplicação ao inves de colocar muito código e poluir os
+componentes desnecessariamente, para podermos abstrair isso dos componentes utilizamos context, que basicamente é um 
+arquivo ou mais destinados para trabalhar com a lógica e a partir de algumas ações que vamos tendo no context vamos
+alterando o estado da aplicação
+
+Passoa a Passo{
+    1 - Primeiramente criamos um context que faça analogia ao contexto que desejamos alterar.
+
+    2 - importamos createContext do react(
+
+        O createContext é uma ferramenta do React que permite compartilhar 
+        informações entre componentes sem precisar ficar passando props de 
+        componente para componente.
+
+    )
+
+    3 - Inicializamos/Criamos o contexto (
+
+        Pense no QuizContext como uma espécie de caixa compartilhada. 
+        Por exemplo, futuramente você pode colocar nela:
+
+        {
+            pergunta: "Qual é a capital do Brasil?",
+            resposta: "Brasília",
+            pontuacao: 10
+        }
+
+    )
+
+    4 - É necessario ter um provider, que nada mais é do que quem vai prover o contexto da aplicação(
+
+        O Provider é o componente responsável por fornecer os dados do contexto para outros componentes.
+        Context = a caixa de informações
+        Provider = quem entrega essa caixa para os componentes
+
+    )
+
+    5 - Oq são Children? (
+
+        children significa: o conteúdo que foi colocado dentro de um componente.
+
+        <QuizContext.Provider> significa: "Tudo que estiver aqui dentro poderá receber os dados desse contexto."
+
+    )
+    
+    6 - useReducer (
+        Através do useReducer podemos gerenciar estados complexos e fazer alterações com base no projeto.
+    )
