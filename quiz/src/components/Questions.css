@@ -1,0 +1,24 @@
+:root{
+    --p_color: #8435de;
+}
+
+#question{
+    text-align: center;
+    max-width: 500px;
+    background-color: var(--p_color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#question h2,
+#question p{
+    margin-bottom: 2rem;
+}
+
+#question p{
+   margin-bottom: 1rem;
+}
+
+#question button{
+    border: 2px solid #fff;
+}

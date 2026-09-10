@@ -1,0 +1,21 @@
+:root{
+    --background-option: #3c0e70;;
+}
+
+.option{
+    background-color: var(--background-option);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.option:hover{
+    opacity: 1;
+}
+
+#options-container .option p{
+    margin-bottom: 0;
+}
