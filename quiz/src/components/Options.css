@@ -1,5 +1,7 @@
 :root{
-    --background-option: #3c0e70;;
+    --background-option: #3c0e70;
+    --correct-color: #0bfc03;
+    --wrong-color: #3c0e70;
 }
 
 .option{
@@ -18,4 +20,14 @@
 
 #options-container .option p{
     margin-bottom: 0;
+}
+
+.correct{
+    background-color: var(--correct-color);
+    font-weight: bold;
+}
+
+.wrong{
+    background-color: var(--wrong-color);
+    opacity: 0.4;
 }
