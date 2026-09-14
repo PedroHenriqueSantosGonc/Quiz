@@ -31,3 +31,7 @@
     background-color: var(--wrong-color);
     opacity: 0.4;
 }
+
+.hide{
+    display: none;
+}
