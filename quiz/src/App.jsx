@@ -11,10 +11,6 @@ import './App.css'
 function App() {
   const [quizState, dispatch] = useContext(QuizContext)
 
-  useEffect(() => {
-    //embaralhar as perguntas
-    dispatch({type: "REODER_QUESTIONS"})
-  }, [])
 
   return (
     <div className="App">
